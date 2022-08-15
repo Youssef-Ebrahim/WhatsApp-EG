@@ -1,0 +1,54 @@
+:root {
+    --Primary-color: rgba(15,52,96,0.9);
+    --Secondary-color: rgba(233,69,96,0.9);
+    --overlay-color: rgba(22,33,62,0.9);
+    --menu-speed: 0.75s;
+    --max-width: 960px;
+  }
+
+.button-s{
+
+    width: 200px;
+      height: 60px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 60px;
+      border-radius: 10px;
+      transition: 1.5s;
+      display: inline-block;
+      margin: 20px  auto;
+      position: relative;
+  }
+  
+  
+  .button-s:hover {
+      background: rgb(21, 119, 126);
+      color: #e2e2e2!important;
+      transition: 0.5s;
+      
+  }
+  
+  .button-s:before{
+    content: 'Download';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(17, 109, 66);
+    color: #ffffff!important;
+    border-radius: 10px;
+    opacity: 2;
+    transition: 1.2s;
+}
+  
+  .button-s:hover:before{
+      opacity: 0;
+      transition: 1.2s;
+      filter: blur(30px);
+  }
+
+
+  

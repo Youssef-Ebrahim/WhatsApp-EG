@@ -1,0 +1,23 @@
+body::before {
+    content: "\00A9  Youssef Ebrahim";
+    color: #1bff00;
+    opacity: 10;
+    font-size: 3vw;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+h2,date {
+    color: #FF2E63;
+}
+h3 {
+    color: rgb(15, 184, 240);
+    font-size: 19px;
+}
+h4 {
+    color: #1599d6;
+    font-size: 19px;
+    margin-bottom: 2rem;
+}
